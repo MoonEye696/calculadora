@@ -1,4 +1,4 @@
-#' função para subtrair
+#'
 #' está função serve para subtrair
 #'
 #' @param a um número
