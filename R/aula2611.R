@@ -1,4 +1,12 @@
+#install.packages('ggplot2')
+#install.packages("plotly")
+
+library(plotly)
+library(ggplot2)
 library(dplyr)
 
-glimpse(iris)
-#comentário para teste de push do git
+#gráfico de dispersão
+ggplot(iris) +
+  aes(x = Sepal.Length, y = Sepal.Width ) +
+  geom_point() +
+  ggtitle('Gráfico de dispersão')
